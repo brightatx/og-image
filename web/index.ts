@@ -142,16 +142,24 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
-    { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
+    { text: 'Black Icon', value: 'https://cdn.selectonellc.com/img/icon/black.svg' },
+    { text: 'Grey Icon', value: 'https://cdn.selectonellc.com/img/icon/grey.svg' },
+    { text: 'Teal Icon', value: 'https://cdn.selectonellc.com/img/icon/teal.svg' },
+    { text: 'Short Logo', value: 'https://cdn.selectonellc.com/img/logo/black_short.svg' },
+    { text: 'Long Logo', value: 'https://cdn.selectonellc.com/img/logo/black_long.svg' },
+
 ];
 
 const imageDarkOptions: DropdownOption[] = [
 
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg' },
-    { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg' },
+    { text: 'Black Icon', value: 'https://cdn.selectonellc.com/img/icon/black.svg' },
+    { text: 'Grey Icon', value: 'https://cdn.selectonellc.com/img/icon/grey.svg' },
+    { text: 'Teal Icon', value: 'https://cdn.selectonellc.com/img/icon/teal.svg' },
+    { text: 'Short Logo', value: 'https://cdn.selectonellc.com/img/logo/white_short.svg' },
+    { text: 'Long Logo', value: 'https://cdn.selectonellc.com/img/logo/white_long.svg' },
+    { text: 'Short Color Logo', value: 'https://cdn.selectonellc.com/img/logo/white_teal_short.svg' },
+    { text: 'Long Color Logo', value: 'https://cdn.selectonellc.com/img/logo/white_teal_long.svg' },
+
 ];
 
 const widthOptions = [

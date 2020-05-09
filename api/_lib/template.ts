@@ -14,12 +14,12 @@ const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString('ba
 function getCss(theme: string, fontSize: string) {
     let background = 'white';
     let foreground = 'black';
-    let radial = 'lightgray';
+    let image = "url('https://images.unsplash.com/photo-1559889030-ed610812ad63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=5472&q=80')"
 
     if (theme === 'dark') {
-        background = 'black';
+        background = 'white';
         foreground = 'white';
-        radial = 'dimgray';
+        image = "url('https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=5304&q=80')"
     }
     return `
     @font-face {
@@ -45,14 +45,17 @@ function getCss(theme: string, fontSize: string) {
 
     body {
         background: ${background};
-        background-image: radial-gradient(circle at 25px 25px, ${radial} 2%, transparent 0%), radial-gradient(circle at 75px 75px, ${radial} 2%, transparent 0%);
-        background-size: 100px 100px;
+        background-image: ${image};
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 2048px 1170px;
         height: 100vh;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
+    
 
     code {
         color: #D400FF;
